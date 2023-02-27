@@ -53,3 +53,20 @@ div.btn-group{
 .geoIcon svg{
     align-items: baseline;
 }
+
+
+/*quinta fila  fila*/
+div.row5{
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+div.row5Img1 img{
+    height: 300px;
+}
+
+/*Onceava fila*/
+div.row11{
+    margin-left: 180px;
+}
