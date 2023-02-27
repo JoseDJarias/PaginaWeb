@@ -1,0 +1,126 @@
+html{
+    background-color:cornflowerblue;
+}
+
+body{
+    max-width: 2000px;
+}
+main{
+    background-color: whitesmoke;
+    width: 600px;
+    height: 600px;
+    position: relative;
+    left: 400px;
+    top: 20px;
+}
+/*Primera caja que tiene el titulo*/
+ div.title {
+    width: 350px;
+    height: 100px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    left: 50px;
+    top: 40px;
+
+ }
+ .title hr{
+    width: 100%;
+    position: relative;
+    bottom: 0px;
+ }
+/*Caja 2 donde copie y pegue el html del label: nombre, email,contact us*/
+/*donde va el label name*/
+div.caja1{
+    font-size: larger;
+    height: 35px;
+    width: 100px;
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+/*.Caja1 y .input son dos cajas distintas*/
+/*clase input: es una caja donde le doy formato a los input de los usuarios*/
+ div.input input{
+    width: 400px;
+    height: 50px;
+    line-height: 25px;
+    position: relative;
+    left: 60px;
+    top: 40px;
+    border: 0;  
+    background-color: whitesmoke;
+
+ }
+/*Formato a la  barra horizontal*/
+.input hr{
+    position: relative;
+    top: 40px;
+    right: 40px;
+    width:400px ;
+    height: 0px ;
+}
+
+/*Caja de send messages que seria un submit*/
+div.message{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: 320px;
+    top: 80px;
+
+}
+div.message input{
+    width: 140px;
+    height: 40px;
+    border: 1px solid black;
+}
+footer{
+    width: 560px;
+    height: 50px;
+    background-color: gray;
+    position: relative;
+    left: 65px;
+}
+
+div.img1{
+    color: whitesmoke;
+    width: 180px;
+    height: 40px;
+    display: inline-flex;
+    position: relative;
+    left: 20px;
+    top: 15px;
+    font-size: large;
+}/*img del footer*/
+div.img1 img{
+  
+    border: none;
+    position: relative;
+    width: 40px;
+    height: 45x;
+    bottom: 5px;
+    right: 10px;
+
+}
+
+div.img2{ /*caja del footer*/
+
+    color: whitesmoke;
+    font-size: large;
+    width: 100px;
+    height: 40px;
+    display: inline-flex;
+    position: relative;
+    left: 50px  ;
+    top: 15px;
+} /*img del footer*/
+div.img2 img{
+    width: 50px;
+    height: 35px;
+    position: relative;
+    bottom: 5px;
+    right: 10px;
+
+    
+
+}

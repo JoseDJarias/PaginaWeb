@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+      <title> ABLP</title>
+       <meta charset="UTF-8">
+</head>
+<body bgcolor="blue">
+	<header>Curriculum Vitae del <abbr tittle="Lic.Armando Broncas LaPlancheta">ABLP</abrr></header
+	
+	<main>
+	
+
+
+
+
+<footer>Detalles por mejorar y sugerencia a: </footer>
+</body>
+</html>

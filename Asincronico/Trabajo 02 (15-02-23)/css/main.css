@@ -1,0 +1,57 @@
+
+header{
+    color:navy;
+    background-color: coral;
+    
+    }
+
+
+nav>a{
+    text-decoration: none;
+    ;
+}
+nav{
+    background-color: coral;
+}
+a{
+    color: blue;
+    text-decoration: none;
+}
+
+h1{
+    text-align:center;
+    
+}
+
+h3{
+    text-align: left;
+}
+
+table{
+    
+    color: black;
+    background-color: darkturquoise;
+    font-size: larger;
+}
+
+#intro{
+    font-size: larger;
+}
+#datosPersonales{
+    
+    font-size: larger;
+    
+}
+#Exp{
+   
+    font-size: larger;
+}
+#pre{ 
+    background-color: aqua;
+    font-size: medium;
+}
+/*Interno.html*/
+#Ref{
+    
+    font-size: larger;
+}

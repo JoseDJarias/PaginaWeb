@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <form method="post">
+        <!--Input atributos: maxlenght, value, disabl,, required-->
+        <div>
+            <div class="input">
+                <label>Nombre</label>
+                <input type="text" name="cedula" id="cedula" maxlength="50px">
+             </div>
+        </div>
+        <div>
+            <div class="input">
+                <label >Contraseña</label>
+                <input type="password" name="contrasena" id="contrasena" maxlength="50px">
+             </div> 
+        </div>
+         
+        <div>
+            <input type="hidden" name="CampoOculto">
+        </div>
+
+        <div>
+            <div class="input">
+                <label >Correo</label>
+                <input type="email" name="correo" id="correo" maxlength="50px">
+             </div>
+        </div>
+
+        <div>
+            <div class="input">
+                <label >Tel</label>
+                <input type="tel" name="Casa" id="Casa">
+            </div>
+         </div>
+
+         <div>
+            <div class="input">
+                <Label>Fecha  Nacimiento</Label>
+                <input type="datetime" value="">
+            </div>
+         </div>
+        
+        <input type="submit" value="Enviar datos">
+        <input type="reset" value="Limpiar">
+         <!--una opcion-->
+         <div>
+            <div class="input">
+                <label for="LaAnda"></label>
+                <input type="button" value="La anda">
+                <label for="Quemados"></label>
+                <input type="button" value="Quemados">
+            </div>
+         </div>
+
+         <div>
+            <div class="input">
+                <label for="Zs"></label>
+                <input type="" value="Zs">
+            </div>
+
+         </div>
+
+         <!--Escoger varias opciones-->
+        <div>
+         
+            <div>
+                <label >Nissan</label>
+                <input type="radio" id="Marca" value="Nissan">
+                <label >Honda</label>
+                <input type="radio" id="Marca" value="Honda">
+            </div>
+        </div> 
+
+        <div>
+
+            <div class="input">
+                <label >Pizza</label>
+                <input type="checkbox" name="Comida" id="Comida" maxlength="50px" value="Pizza">
+                <label >Taco</label>
+                <input type="checkbox" name="Comida" id="comida" maxlength="50px" value="Taco">
+
+                
+             </div>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,63 @@
+body{
+    max-width: 1800px;
+}
+/*First row css*/
+div.firstRowBody{
+    width: 100%;
+    height: 50px;
+    display: inline-flex;
+    
+}
+/*First column*/
+div.firstColumnBody{
+    width: 200px;
+    height: 40px;
+    display: inline-flex;
+}
+div.firstColumnIcon1{
+    width: 20px;
+    height: 40px;
+
+}
+div.row1col1{
+    width: 150px;
+    height: 40px;
+    position: relative;
+    bottom: 40px;
+    left: 15px;
+}
+div.row1col1 a{
+    text-decoration: none;
+    color:black;
+}
+/*Second column*/
+div.secondColumnBody{
+    width: 700px;
+    height: 40px;
+}
+div.secondColumnIcon1 {
+    width: 100px;
+    position: relative;
+    left: 350px;
+    top: 5px;
+}
+div.secondColumnIcon2{
+    position: relative;
+    left: 380px;
+    bottom: 20px; ;
+    position: relative;
+    width: 100px;
+}
+
+nav.nav1{
+    width: 1140px;
+    display: inline-block;
+}
+.nav1 .row2col2{
+    width:500px ;
+    margin-right: 50px;
+
+}
+.nav1 .row2col3{
+width: 150px;
+}

@@ -1,0 +1,58 @@
+
+header{
+    position:relative;
+    left: 460px;
+    margin-bottom: 100px;
+
+    
+}
+body{
+    background-color: blanchedalmond;
+    cursor:grab;
+    width: 1600px;
+    max-width: 1440px   ;
+
+}
+
+/*imagenes debajo  del titulo "Menu Principal"*/
+.img1{
+    display: inline-block;
+    position: relative;
+    left:60px;
+    bottom: 50px;
+    width: 300px;
+    text-align: center;
+}
+.img2{
+    position: relative;
+    left: 550px;
+    display: inline-block;
+    width: 300px;
+text-align: center;
+}
+/*Division de las imagenes con el menu*/
+section.LineaEntreHeaderImg{
+    margin: 20px;
+    display: block ;
+}
+/*Cajas que estan al lado del menu*/
+span.CajasAmboLadosMenuPrincipal{
+    background-color: aqua ;
+    padding: 20px;
+    width: 450px;
+    height: 45px;
+    display: inline-block;
+    text-align: center;
+   font-size: 20px;      
+}
+
+ul.menuPrincipal{
+    background-color: aqua;
+    width: 185px;
+    padding: 30px;
+    height: 80px;
+    margin: 30px 20px;
+    display: inline-block;
+   /* margin-left: 40%;*/ 
+   font-size: 20px;   
+}

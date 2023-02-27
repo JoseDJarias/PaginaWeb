@@ -1,0 +1,123 @@
+body{
+    background-color: cyan ;
+}
+main{
+    background-color: whitesmoke;
+    width: 700px;
+    height: 490px;
+    position:relative;
+    left: 100px;
+    top: 50px;
+}
+
+div.caja1{
+    width: 400px;
+    height: 40px;
+    position: relative;
+    right: 30px;
+    top: 40px;
+    background-color: skyblue;
+}
+
+div.title{
+    
+    color: white;
+    width: 350px;
+    height: 30px;  
+    text-align: center;
+    position: relative;
+    top: 10px;  
+}
+
+div.caja2{
+    
+    width: 100px;
+    height: 30px;
+    position: relative;
+    top: 45px;
+    left: 55px;
+}
+
+div.input{
+    width: 315px;
+    height: 50px;
+    position: relative;
+    top: 50px;
+    left: 55px;
+}
+div.input input{
+    border:none;
+    background-color: whitesmoke;
+}
+
+div.img img{
+    position: relative;
+    left: 400px;
+    bottom: 200px;
+}
+
+div.caja3{
+    position: relative;
+    bottom: 400px;
+    left: 54px;
+}/*day*/
+div.inputExpDate1{
+    position: relative;
+    bottom: 380px;
+    left: 54px;
+    width: 70px;
+    display: inline-block;
+}
+div.inputExpDate1 input{
+    border: none;
+    width: 70px;
+    
+}/*year*/
+div.inputExpDate2{
+    position: relative;
+    bottom: 420px;
+    left: 170px;
+    width: 70px;
+    display: inline-block;
+}
+div.inputExpDate2 input{
+    border: none;
+    width: 70px;
+    position: relative;
+    bottom: 1px;
+    
+}
+/*CSV No.s*/
+div.inputExpDate3{
+    position: relative;
+    bottom: 490px;
+    left: 290px;
+    width: 70px;
+    display: inline-block;
+}
+div.inputExpDate3 input{
+    border: none;
+    width: 70px;
+    height: 15px;
+    position: relative;
+    bottom: 2px;
+    
+}
+div.caja4{
+    width: 70px;
+    height: 30px;
+    position: relative;
+    bottom: 10px;
+}
+/*submit of continue to payment*/
+.divcaja5{
+    width: 100px;
+    height: 30px;
+    background-color: black;
+}
+div.caja5 input{
+    position: relative;
+    bottom: 400px;
+    left: 55px;
+}
+

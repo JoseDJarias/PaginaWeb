@@ -1,0 +1,346 @@
+body{
+    max-width: 1600px;
+    background-color: whitesmoke;
+    height: 1800px;
+}
+.box1{
+    display: inline-block  ;
+    
+    width: 50px;
+    height: 40px;
+    position: absolute;
+    
+} /*img, perfil, contacto,habilidades, idiomas*/
+.box2{
+    display: inline-block;
+    background-color: gray;
+    width: 350px;
+    height: 1550px;
+    position: absolute;
+    left: 48px;
+
+}
+section.refMain{
+    position: relative;
+    top: 125px;
+    left: 60px;
+    width: 200px;
+    height: 100px;
+}
+/*Se quita la decoracion del hipervinculo "Referencias"*/
+section.refMain a{
+    text-decoration: none;
+}
+ div>section>img{
+    position: relative;
+    top: 80px;
+    border-radius: 90%;
+    
+}
+ .box2 .perfil{
+    width: 200px;
+    height: 100px;
+    position: relative;
+    top: 150px;
+    left: 60px;
+}
+.box2 .perfilText{
+    width: 250px;
+    height: 200px;
+    position: relative;
+    top: 120px;
+    left: 60px;
+    line-height: 30px   ;
+    }
+
+.box2 .contacto{
+    width: 200px;
+    height: 100px;
+    position: relative;
+    top: 160px;
+    left: 60px;
+}
+.box2 .contactoText{
+    width: 250px;
+    height: 200px;
+    position: relative;
+    top: 120px;
+    left: 60px;
+    line-height: 30px   ;
+   
+}.box2 .habilidades{
+    width: 200px;
+    height: 100px;
+    position: relative;
+    top: 50px;
+    left: 60px;
+}
+
+.box2 .habilidadesText{
+    width: 250px;
+    height: 200px;
+    position: relative;
+    top: 20px;
+    left: 60px;
+    line-height: 30px   ;
+}
+
+.box2 .Idiomas{
+    width: 200px;
+    height: 100px;
+    position: relative;
+    top: 50px;
+    left: 60px;
+}
+
+.box2 .IdiomasText{
+    width: 250px;
+    height: 200px;
+    position: relative;
+    top: 10px;
+    left: 60px;
+    line-height: 30px   ;
+}
+
+.box3{
+    display: inline-block;
+    
+    width: 900px;
+    height: 40px;
+    position: relative;
+    left: 390px;
+}
+
+
+.box4{
+    width: 40px;
+    height: 260px;
+    background-color: black;
+    position: relative;
+    bottom: 3px;
+    
+    
+}
+
+.box5{/*Titulo donde va el nombre y el puesto a ocupar*/
+    width: 900px;
+    height: 250px;
+    background-color: black;
+    position: relative;
+    left: 390px;
+    bottom: 265px;
+    color: whitesmoke;  
+    text-align: center;
+    word-spacing: 5px;
+    line-height: 1cm;
+    display: inline-block;
+}
+
+.box6{
+    width: 40px;
+    height: 945px;
+    margin: 0%;
+}
+.box7{  
+    display: inline-block;
+    width: 900px;
+    height: 1255px;
+    
+    position: relative;
+    left: 400px;
+    bottom: 1200px;
+    
+}
+
+.box7 .exp{
+    width: 800px;
+    height: 30px;
+    position: relative;
+    left: 30px;
+}
+.box7 .expText{
+    width: 800px;
+    height: 860px;
+    position: relative;
+    top: 20px;
+    left: 30px;
+    line-height: 30px;
+}
+.box7 ul{
+      list-style-type: lower-greek;
+}
+span.educacion{
+    line-height: 25px;
+    width: 900px;
+    height: 100px;
+    position: relative;
+    left: 40px;
+}
+
+
+/*Interno.html*/
+    /*Primera caja  foondo blanco esquina superior izquierda
+    box=objeto/I=Interno*/
+    body.bodyInterno{
+        background-color: whitesmoke;
+        max-width: 1600px;
+       
+    }
+    header{
+        position: relative;
+        top: 78px;
+    }
+    div.boxI1{
+        width: 50px;
+        height: 50px;
+        
+    }
+    /*Segunda caja donde van las img, contactos..*/
+    div.boxI2{
+        background-color: gray;
+        width: 311px;
+        height: 1200px;
+        position: relative;
+        left: 50px;
+        bottom: 60px;
+        display: inline-block;
+
+    }
+    /*Titulo "contacto1"*/
+    section.contacto1Title{
+        
+        width: 162;
+        height: 30px;
+        position: relative;
+        top: 200px;
+        text-align: center;
+    }
+       /*Primera referencia*/
+       div.ref1{
+        background-color: grey;
+    width: 310x;
+    height: 180px;
+    display: inline-block;    
+    position: relative;
+    top: 200px;
+    }
+    ul.contacto1{
+        list-style-type: circle;
+        position: relative;
+        top: 220px;
+        line-height: 20px;
+    }
+        div.ref1 img{
+        border-radius: 90%;
+        
+    }
+
+     /*Segunda referencia*/
+
+     /*Titulo "contacto2"*/
+     section.contacto2Title{
+        width: 162;
+        height: 30px;
+
+        position: relative;
+        top: 200px;
+        text-align: center;
+        position: relative;
+        top: 650px;
+    }
+
+     div.ref2{
+        width: 310px;
+        height: 340px;
+        display: inline-block;    
+        position: relative;
+        top: 260px;
+        left: 60px;
+        }
+        div.ref2 img{
+            
+            border-radius: 90%;
+
+        }    
+      
+        ul.contacto2{
+            list-style-type: circle;
+            position: relative;
+            top: 330px;
+            line-height: 20px;
+        }
+        /*BoxI3*/
+        /*Fondo blanco esquina superior izquierda*/
+        .boxI3{
+            display: inline-block;
+            color: whitesmoke;
+            width: 1240px;
+            height: 100px;
+            background-color: black;
+            position: absolute;
+            left: 369px;
+
+        
+        }
+        div.boxI3 nav a{
+            text-decoration: none;
+            
+            text-align:center;
+            
+
+        }
+        .boxI4{
+            position: relative;
+            width: 50px;
+            height: 100px;
+            background-color: black;
+            position: relative;
+            bottom: 1200px;
+        }
+        /*Donde van los textos de las referencias*/
+        .boxI5{
+            position: relative;
+            left: 361px;
+            bottom: 1230px;
+            width: 1240px;
+            height: 1000px;
+           
+        }
+        section.ref{
+            width: 1240px;
+            height: 1200px;
+        }
+    
+        main p.refText1{
+            
+            display: inline-block;
+            position: relative;
+            top: 140px;
+            left: 1%;
+            width: 1240px;
+            height: 180px;
+            line-height: 40px ;
+            font-size: larger;
+        }
+        .refText2{
+            
+            display: inline-block;
+            position: relative;
+            top:  330px;
+            left: 1%;
+            width: 1240px;
+            height: 220px;
+            line-height: 40px ;
+            font-size: larger;
+        } 
+
+    /*Listas donde van los contactos*/
+   
+    /*Segunda referencia*/
+
+   
+
+      
+
+    
+    

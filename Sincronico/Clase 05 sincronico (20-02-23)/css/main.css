@@ -1,0 +1,126 @@
+body{
+    max-width: 1800px;
+    background-color:rgb(23, 24, 26);
+    color: whitesmoke;
+}
+a{
+    color: whitesmoke;
+}
+section.header{
+    z-index: 1;
+    display: inline-block;
+    
+    
+    width: 1500px;
+    height: 60px;
+}
+
+section .logo{
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    left: 20px;
+    top: 15px;
+    
+    
+}
+section .logo img{
+    width: 40px;
+    height: 40px;
+    border:4px   ;
+    border-radius: 100%;
+}
+
+section .buscador{
+
+    display: inline-block;
+    background: url(https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-19-32.png) no-repeat 0px 5px;
+    background-size: 24px; 
+    width: 200px;
+    border: transparent;
+    border-bottom: solid 1px #ccc;
+    padding: 10px 10px 10px 30px;
+    outline: none;
+      position: fixed;
+      top: 3%;
+      left: 6%;
+      
+}
+
+.menuHeader1{
+    width: 300px;
+    height: 30px;
+    position: fixed;
+    left: 35%;
+    top: 5%;
+}
+
+.menuNav1 a {
+    margin: 1%;
+    display: inline-block;
+    text-decoration: none;
+}
+
+nav.menuNav1 img{
+    width: 50px;
+    height: 50px;
+}
+.menuHeader2{
+    display: inline-block;
+    width: 300px;
+    height: 50px;
+    position: fixed;
+    left: 80%;
+    bottom:88% ;
+}
+.menuNav2 a{
+    
+    display: inline-block;
+    text-decoration: none;
+  
+}
+nav.menuNav2 img{
+    width: 50px;
+    height: 50px;
+}
+
+main{
+    width: 1800px;
+    height: 2000px;
+}
+
+section ul.listaMenu a{
+    text-decoration-line: none;
+}
+section ul.listaMenu{
+    display: inline-block;
+    line-height: 40px;
+    border: 3px solid #73AD21;
+    position: fixed;
+    width: 300px;
+    height: 1000px;
+}
+
+
+main section.historias{
+    display: inline-block;
+    width: 600px;
+    height: 200px ;
+    position: relative;
+    left:400px;
+    top: 50px;
+ }
+section.historias img{
+    height: 170px;
+    position: relative;
+    left: 0px;
+ }
+
+main section.publicidad{
+    width: 20%;
+    height: 30%;
+    position: absolute;
+    left: 1400px;
+    top: 300px;
+    
+}

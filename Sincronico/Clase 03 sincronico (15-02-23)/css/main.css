@@ -1,0 +1,24 @@
+        /*css*/
+        /* partes: regla que tiene un selector, cuerpo*/
+        /* propiedades y sus valores*/
+        /*selector: indica a quien se le va aplicar el formato o  regla */
+        /*tipos de selectores: id, clase, etiqueta, universal*/
+
+        h2{
+            color: aquamarine;
+            background-color:darkkhaki;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: 400;
+            border-style: dotted;
+        }
+
+        /*clase*/
+        .tabla{
+            background-color: red;
+        }
+
+        /*id*/
+        #apellido{
+            background-color: cadetblue
+            ;
+        }
