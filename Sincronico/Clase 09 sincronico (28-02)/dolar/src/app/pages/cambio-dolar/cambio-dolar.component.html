@@ -1,2 +1,17 @@
 <p> Tipo de cambio</p>
-{{dataCambio}}
+
+<button mat-button color="primary">Primary</button>
+
+<mat-card class="example-card">
+    <mat-card-header>
+      <mat-card-title-group>
+        <mat-card-title>Compra Dolar</mat-card-title>
+        <mat-card-subtitle></mat-card-subtitle>
+        <img mat-card-sm-image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcGv1ITaf2V-gjFLTrTM5EFy9jb3ciyU5Hbg&usqp=CAU" >
+      </mat-card-title-group>
+    </mat-card-header>
+    <mat-card-content>
+
+        Compra: {{dataCambio.compra.valor}}
+        Venta: {{dataCambio.venta.valor}}    </mat-card-content>
+  </mat-card>

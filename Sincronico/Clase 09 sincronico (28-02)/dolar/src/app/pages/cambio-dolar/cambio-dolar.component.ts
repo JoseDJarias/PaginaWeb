@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { CambioDolar } from 'src/app/shared/models/CambioDolar';
 import { CambiodolarService } from 'src/app/shared/services/cambiodolar.service';
 
 @Component({
@@ -8,9 +9,9 @@ import { CambiodolarService } from 'src/app/shared/services/cambiodolar.service'
 })
 export class CambioDolarComponent  {
 
-  dataCambio:String;
+  dataCambio:CambioDolar;
   constructor( private cambioDolarSrv:CambiodolarService){
-    this.cambioDolarSrv.getCambio().subscribe((data:any)=>{
+    this.cambioDolarSrv.getCambio().subscribe((data:CambioDolar)=>{
       this.dataCambio=data;
       console.log(this.dataCambio);
     });

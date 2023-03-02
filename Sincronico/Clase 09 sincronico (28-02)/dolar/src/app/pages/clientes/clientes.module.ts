@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { ClientesRoutingModule } from './clientes-routing.module';
 import { ClientesComponent } from './clientes.component';
 import { CreateClienteComponent } from './create-cliente/create-cliente.component';
+import { MaterialModule } from 'src/app/material.module';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { CreateClienteComponent } from './create-cliente/create-cliente.componen
   ],
   imports: [
     CommonModule,
-    ClientesRoutingModule
+    ClientesRoutingModule,
+    MaterialModule
   ]
 })
 export class ClientesModule { }

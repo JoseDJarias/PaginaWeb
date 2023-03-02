@@ -3,4 +3,22 @@
     <li> <a routerLink="listaClientes">Clientes</a>        </li>
     <li> <a routerLink="listaClientes/Create">Crear Clientes</a> </li>
   </ul>
-   
+
+
+  <button mat-button [matMenuTriggerFor]="belowMenu">Monedas</button>
+<mat-menu #belowMenu="matMenu" yPosition="above">
+  <button mat-menu-item routerLink="listaClientes">Lista Clientes</button>
+  <button mat-menu-item routerLink="listaClientes/Create">Crear Clientes</button>
+</mat-menu>
+
+<button mat-button [matMenuTriggerFor]="belowMenu1">Clientes</button>
+<mat-menu #belowMenu1="matMenu" yPosition="below">
+  <button mat-menu-item routerLink="cambioDolar">Tipo de cambio</button>
+</mat-menu>
+
+
+
+
+
+
+ 
